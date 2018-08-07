@@ -391,11 +391,11 @@ Next, we need to add the event that triggers this lambda function. This will be 
 
 Configure with the following:
 
-Bucket name: face-detection-your-name (you created this bucket earlier)
-Event type- Object Created
-Prefix- faces/
-Filter- .jpg
-Enable trigger- ON (keep the checkbox on)
+- Bucket name: face-detection-your-name (you created this bucket earlier)
+- Event type- Object Created
+- Prefix- faces/
+- Suffix- .jpg
+- Enable trigger- ON (keep the checkbox on)
 
 Save the lambda function
 
