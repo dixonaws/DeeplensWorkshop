@@ -10,7 +10,7 @@ In this module, you will learn how to integrate the project with Amazon Rekognit
 2. Click on Create Table.
 3. Next, we need to create the DynamoDB table that will store our output:
 
-Name the table: recognize-faces
+Name the table: rekognize-faces (name needs to match this string to match sample code!)
 
 Primary key: s3key
 
